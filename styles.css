@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  background-color: black;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #940808;
+  background-color: black;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px
+}
